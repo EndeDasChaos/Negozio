@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contatta_rider">
+
+    <EditText
+        android:id="@+id/inte"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        android:text="Lista rider disponibili"
+        />
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/informazione"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="150dp"
+        android:text="visualizza "
+        />
+
+    <CheckedTextView
+        android:id="@+id/informazione"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inte"
+        android:gravity="center"
+        android:text="CheckedTextView" />
+
+
+    <EditText
+        android:id="@+id/nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/but1"
+        android:text="Nome"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/cognome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/nome"
+        android:text="Cognome"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/luogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/cognome"
+        android:text="Luogo"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/prod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/luogo"
+        android:text="Prodotto"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/prod"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="30dp"
+        android:text="Aggiungi "
+        />
+    <Button
+        android:id="@+id/but3"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/but2"
+        android:layout_marginStart="132dp"
+        android:text="Indietro "
+        />
+</RelativeLayout>

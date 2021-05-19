@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#808000"
+    >
+
+    <EditText
+        android:id="@+id/BENV"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        android:textColor="#cc0000"
+        android:text="Sei disponibile ad effettuare una consegna?"
+        />
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_below="@id/BENV"
+        android:layout_marginStart="132dp"
+        android:text="SI "
+        android:textColor="#FFC107" />
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/but1"
+        android:layout_marginStart="132dp"
+        android:text="NO "
+        android:textColor="#FFC107" />
+    <EditText
+        android:id="@+id/benv2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_below="@id/but2"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        android:textColor="#cc0000"
+        android:text="Cliccando su visualizza vedrai la tua consegna"
+        />
+    <Button
+        android:id="@+id/but3"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/benv2"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="50dp"
+        android:text="Visualizza "
+        android:textColor="#FFC107" />
+</RelativeLayout>

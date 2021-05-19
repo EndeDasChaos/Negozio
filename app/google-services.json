@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "139284304505",
+    "project_id": "appmobili-f0e21",
+    "storage_bucket": "appmobili-f0e21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139284304505:android:3b93d6e4747136fab17aa8",
+        "android_client_info": {
+          "package_name": "it.uniupo.negozio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139284304505-clfpnr57eia9n2lum2neudsludnm1m6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi_E6RURx9UQBK8wsahQnfswc8FXYdoks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139284304505-clfpnr57eia9n2lum2neudsludnm1m6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

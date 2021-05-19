@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.uniupo.negozio">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Negozio">
+        <activity android:name=".Rider_consegne"></activity>
+        <activity android:name=".Organizza_rider" />
+        <activity android:name=".Disponibile_rider" />
+        <activity android:name=".Aggiunta_locale" />
+        <activity android:name=".Visualizza_storico" />
+        <activity android:name=".Contatta_rider" />
+        <activity android:name=".Modifica_prodotto" />
+        <activity android:name=".Aggiunta_prodotto" />
+        <activity android:name=".prenotazione" />
+        <activity android:name=".Rider" />
+        <activity android:name=".Dirigente_o_cliente" />
+        <activity android:name=".Gestore" />
+        <activity android:name=".Rider_o_cliente" />
+        <activity android:name=".Cliente" />
+        <activity android:name=".Registrazione" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

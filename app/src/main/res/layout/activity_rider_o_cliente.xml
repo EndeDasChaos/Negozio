@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rider_o_cliente"
+    android:background="#6495ed	">
+    <TextView
+        android:id="@+id/titolo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:textColor="#cc0000"
+        android:layout_marginTop="100dp"
+        android:text="Vuoi essere cliente o rider?" />
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titolo"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="145dp"
+        android:text="Rider" />
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/but1"
+        android:layout_marginStart="142dp"
+        android:text="Cliente" />
+</RelativeLayout>

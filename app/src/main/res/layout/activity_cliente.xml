@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cliente"
+    android:background="#8fbc8f	"
+    >
+    <EditText
+        android:id="@+id/BENV"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        android:textColor="#cc0000"
+        android:text="BENVENUTO! Immettere l'indirizzo per ordinare "
+        />
+
+    <EditText
+        android:id="@+id/ind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BENV"
+        android:layout_marginTop="98dp"
+        android:background="#ffd700"
+        android:gravity="center"
+        android:hint="indirizzo"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_below="@id/ind"
+        android:layout_marginStart="132dp"
+        android:text="prosegui "
+        android:textColor="#FFC107" />
+</RelativeLayout>

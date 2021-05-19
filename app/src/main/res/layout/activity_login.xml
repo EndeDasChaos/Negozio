@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#63FF9800"
+    >
+
+
+    <EditText
+        android:id="@+id/info1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_below="@id/img.log"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        android:text="Immettere le credenziali o registrarsi  "
+        />
+
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/info1"
+        android:hint="e-mail"
+        android:inputType="textEmailAddress"
+        android:background="#4000CCCC"
+        />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/id"
+        android:layout_marginTop="5dp"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:background="#4000CCCC"
+        />
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/but2"
+        android:layout_marginStart="132dp"
+        android:text="registrati "
+        android:textColor="#FFC107" />
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pass"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="26dp"
+        android:text="log_in"
+        android:textColor="#FFC107" />
+
+    <ImageView
+        android:id="@+id/img.log"
+        android:layout_width="match_parent"
+        android:layout_height="228dp"
+        android:layout_marginTop="100dp"/>
+        /*app:srcCompat="@drawable/undraw_authentication_fsn5" */
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="WELCOME!"
+        android:gravity="center"
+        android:textColor="#cc0000"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        />
+
+
+
+</RelativeLayout>

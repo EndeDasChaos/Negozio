@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Organizza_rider"
+    android:background="#FF9800"
+    >
+    <EditText
+        android:id="@+id/BENV"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        android:textColor="#cc0000"
+        android:text="BENVENUTO! Immettere i dati richiesti "
+        />
+
+    <EditText
+        android:id="@+id/nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BENV"
+        android:layout_marginTop="98dp"
+        android:background="#ffd700"
+        android:gravity="center"
+        android:hint="nome"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/cognome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffd700"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_below="@id/nome"
+        android:hint="cognome"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffd700"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_below="@id/cognome"
+        android:hint="messaggio"
+        android:inputType="textEmailAddress" />
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_below="@id/info"
+        android:layout_marginStart="132dp"
+        android:text="prosegui "
+        android:textColor="#FFC107" />
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/but1"
+        android:layout_marginStart="150dp"
+        android:text="indietro"
+         />
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gestore">
+    <EditText
+        android:id="@+id/BENV"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Modifica o inserimento prodotti "
+        android:textColor="#228b22"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BENV"
+        android:layout_marginTop="385dp"
+        android:layout_marginStart="60dp"
+        android:text="AGGIUNGI prodotto "
+        android:textColor="#FFC107" />
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BENV"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="385dp"
+        android:text="MODIFICA prodotto "
+        android:textColor="#FFC107" />
+
+    <Button
+        android:id="@+id/but3"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/but1"
+        android:layout_marginTop="-10dp"
+        android:layout_marginStart="60dp"
+
+        android:text="CONTATTA RIDER "
+        android:textColor="#FFC107" />
+    <Button
+        android:id="@+id/but4"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:layout_below="@id/but2"
+        android:layout_marginStart="200dp"
+        android:text="VISUALIZZA LO STORICO "
+        android:textColor="#FFC107" />
+    <Button
+        android:id="@+id/but6"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BENV"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="480dp"
+        android:text="aggiungi locale "
+        android:textColor="#FFC107" />
+    <Button
+        android:id="@+id/but5"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BENV"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="535dp"
+        android:text="indietro "
+        android:textColor="#FFC107" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/shop_dirigente" />
+</RelativeLayout>

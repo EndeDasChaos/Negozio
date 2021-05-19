@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccffff"
+    tools:context=".Registrazione">
+
+    <EditText
+        android:id="@+id/inte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Pagina inserimento dati"
+        android:gravity="center"
+        android:textColor="#0000ff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_below="@id/pass"
+        android:text="IMPORTANTE! Obbligatorio inserire tutti i dati prima di procedere"
+        android:textColor="#cc0000"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="30dp"
+        android:text="procedi"
+        android:textColor="#ff0000" />
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="indietro"
+        android:textColor="#ff0000" />
+
+    <EditText
+        android:id="@+id/nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_below="@id/inte"
+        android:text="Nome"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/cognome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/nome"
+        android:text="Cognome"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/e_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/cognome"
+        android:text="e-mail"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/e_mail"
+        android:text="Password"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/tipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/pass"
+        android:text="Tipo"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="534dp"
+        android:layout_below="@id/inte"
+       /> app:srcCompat="@drawable/att" />
+
+</RelativeLayout>
